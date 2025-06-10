@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" class="logo">Portfolio</a>
+    <!-- Add this inside your header/navbar -->
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+    <nav class="navbar">
+      <a href="#home" style="--i:1" class="active">Home</a>
+      <a href="#about" style="--i:2">About</a>
+      <a href="#services" style="--i:3">services</a>
+      <a href="#resume" style="--i:4">Resume</a>
+      <a href="#portfolio" style="--i:5">Portfolio</a>
+      <a href="#contact" style="--i:6">Contact</a>
+    </nav>
+
+  </header>
+  <section id="home" class="home">
+    <div class="home-content">
+      <h3> Hello, It's Me</h3>
+      <h1>Aditi Kamble</h1>
+      <h3>And I'm a <span class="text"></span></h3>
+      <p>i'm a Web Designer.
+        <br>expertise is to create and website design , Frontend design,<br> and many more.....</br>
+      </p>
+      <div class="home-sci">
+        <a href="https://www.linkedin.com/in/kambleaditi/
+            " style="--i:7" data-name="LinkedIn">
+          <box-icon name='linkedin' type='logo' color='#0ef'></box-icon>
+        </a>
+
+        <a href="https://github.com/aditiii1123ak" style="--i:8" data-name="Github">
+          <box-icon name='github' type='logo' color='#0ef'></box-icon>
+        </a>
+
+        <a href="https://www.instagram.com/coding__era/" style="--i:9" data-name="instagram">
+          <box-icon name='instagram' type='logo' color='#0ef'></box-icon>
+        </a>
+
+        <a href="https://wa.me/918425975988?text=Hello%20Aditi%2C%20I%20just%20visited%20your%20portfolio!"
+          target="_blank" style="--i:10" data-name="whatsapp">
+          <box-icon name='whatsapp' type='logo' color='#0ef'></box-icon>
+        </a>
+
+      </div>
+
+      <a href="resume.pdf" download="Aditi_Kamble_Resume.pdf" class="btn-box">Download Resume</a>
+    </div>
+    <span class="home-imgHover"></span>
+  </section>
+
+  <SECTION class="about" id="about">
+    <div class="about-img">
+      <img src="2.jpg" alt="">
+    </div>
+    <div class="about-text">
+      <h2>About <span>Me</span></h2>
+      <h3>Hi, I'm Aditi Kamble 👩‍💻</h3>
+      <p>
+        I'm a Computer Science student and a passionate <strong>Web Developer</strong> and <strong>Python
+          Programmer</strong>.
+        I love turning creative ideas into real-world web solutions.
+      </p>
+      <p>
+        💻 <strong>Tech Stack:</strong><br>
+        ▪ Frontend: HTML5, CSS3, JavaScript, Tailwind CSS, React.js<br>
+        ▪ Backend: Node.js (basics), PHP<br>
+        ▪ Programming: Python, C++<br>
+        ▪ Database: MySQL, SQL<br>
+        ▪ Tools: Git, Github, VS Code, XAMPP
+      </p>
+
+      <p>
+        📌 I’ve built multiple projects including a <strong>Spotify Clone</strong>, <strong>Banking Management
+          System</strong>, and a <strong>Classic Tic-Tac-Toe Game</strong>, all using clean code and modern design
+        principles.
+      </p>
+
+      <p>
+        🎯 I'm eager to contribute to dynamic teams, learn continuously, and build user-focused solutions that make a
+        difference.
+      </p>
+      <a href="#" class="btn-box">More About ME </a>
+    </div>
+
+  </SECTION>
+  <section>
+    <div class="services" id="services">
+      <div class="container">
+        <h1 class="sub-title">My <span>services</span></h1>
+        <div class="services-list">
+          <div>
+            <div class="card">
+              <div class="back">
+                <box-icon name="code" type="logo" color="#0ef"></box-icon>
+                <h2>Full-Stack Web Development</h2>
+
+                <p>Design and build dynamic, responsive websites and applications using HTML, CSS, JavaScript, and the
+                  MERN stack. Focused on delivering clean UI, optimized performance, and seamless user experience.</p>
+              </div>
+              <div class="front">
+                <h2>Full-Stack Web Development</h2>
+
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="card">
+              <div class="back">
+                <box-icon name="crop" type="logo" color="#0ef"></box-icon>
+                <h2>Version Control & Collaboration</h2>
+                <p>Manage and collaborate on code effectively using Git and GitHub. Proficient in branch management,
+                  pull requests, issue tracking, and repository organization for smooth team workflows.</p>
+              </div>
+              <div class="front">
+                <h2>Version Control & Collaboration</h2>
+
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="card">
+              <div class="back">
+                <box-icon name="apple" type="logo" color="#0ef"></box-icon>
+                <h2>Cybersecurity Fundamentals</h2>
+                <p>Apply essential security practices such as firewall setup, access control, and system hardening.
+                  Completed cybersecurity simulations (Mastercard & TATA Forage) to strengthen real-world readiness.</p>
+
+              </div>
+              <div class="front">
+                <h2>Cybersecurity Fundamentals</h2>
+
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="card">
+              <div class="back">
+                <box-icon name="crop" type="logo" color="#0ef"></box-icon>
+                <h2>
+                  Linux System Administration
+                </h2>
+                <p>Maintain and secure Linux-based systems with hands-on experience in user management, permissions,
+                  services, cron jobs, and performance tuning. Proficient in shell scripting and system monitoring.</p>
+              </div>
+              <div class="front">
+                <h2>Linux System Administration</h2>
+
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card">
+              <div class="back">
+                <box-icon name="crop" type="logo" color="#0ef"></box-icon>
+                <h2>Windows Server Administration</h2>
+                <p>Install, configure, and manage Windows Server environments. Skilled in Active Directory, Group
+                  Policy, DNS, DHCP, WDS setup, and server performance optimization.</p>
+              </div>
+              <div class="front">
+                <h2>Windows Server Administration</h2>
+
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card">
+              <div class="back">
+                <box-icon name="crop" type="logo" color="#0ef"></box-icon>
+                <h2>Networking & Troubleshooting</h2>
+                <p>Set up and manage networks using switches, routers, VLANs, and IP addressing. Proficient in
+                  diagnosing and resolving connectivity issues using tools like Wireshark and IP Scanner.</p>
+
+              </div>
+              <div class="front">
+                <h2>Networking & Troubleshooting</h2>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="resume" id="resume">
+      <h1 class="title"><span>Resume</span></h1>
+      <div class="main-container">
+        <!-- Left Container -->
+        <div class="left-container">
+          <h1>Why you Hire me?</h1>
+          <p>With a strong foundation in networking and systems, I am actively building skills in CCNA, MCSA, Red Hat,
+            as well as gaining practical knowledge in network fundamentals, cybersecurity, and web development. I bring
+            hands-on learning experience and a growing understanding of IT infrastructure, system administration, and
+            secure web technologies. My technical curiosity, problem-solving mindset, and proactive approach drive me to
+            explore, implement, and contribute to reliable, scalable IT solutions that align with modern business goals.
+          </p>
+          <div class="resume-links">
+            <div class="resume-link active" data-target="experience">Experience</div>
+            <div class="resume-link" data-target="education">Education</div>
+            <div class="resume-link" data-target="certifications">Certifications</div>
+            <div class="resume-link" data-target="skills">Skills</div>
+          </div>
+        </div>
+
+        <!-- Right Container -->
+        <div class="right-container">
+          <div id="experience" class="resume-section active">
+            <h1>My <span>Experience</span></h1>
+            <!-- your experience content -->
+            <p>Jan 31 – Feb 1, 2025 <br> <strong>Hackathon Participant – TechXpression 2025</strong>
+              B.K. Birla College, Kalyan <br>
+              - Built a <strong>Sentiment Analysis</strong> web application during a 2-day intercollegiate
+              hackathon.<br>
+              - Designed system architecture, backend logic, and responsive UI/UX.<br>
+              - Presented the project to judges, demonstrating real-time analysis and user-friendly features.
+            </p>
+
+            <p>December 2024<br><strong>Cloud Computing Intern</strong>
+              iFuture Technologies Pvt Ltd – Thane, India<br>
+
+              - Gained hands-on experience in cloud computing fundamentals.<br>
+              - Worked with cloud service models: <strong>IaaS</strong>, <strong>PaaS</strong>, and
+              <strong>SaaS</strong>.<br>
+              - Explored leading cloud platforms: <strong>AWS</strong> and <strong>Microsoft Azure</strong>.
+            </p>
+          </div>
+
+          <div id="education" class="resume-section">
+            <h1>My <span> Education</span></h1>
+            <!-- your education content -->
+            <p>2022 - 2025<br>
+              <b>B.Sc Computer Science </b> <br>
+              Kirti M Doongursee, Mumbai, Maharashtra, India<br>
+            </p>
+          </div>
+
+          <div id="certifications" class="resume-section">
+            <h1>My <span>Certifications</span></h1>
+            <!-- your certifications content -->
+            <p>
+              DSA with Java Bootcamp – LetsUpgrade
+              <a href="https://verify.letsupgrade.in/certificate/LUEDSAMAY1251395" target="_blank">
+                <i class='bx bx-arrow-from-left'></i>
+              </a>
+            </p>
+            <p>Spotify Clone using React – LetsUpgrade
+              <a href="https://verify.letsupgrade.in/certificate/LUESCAPR1251128" target="_blank">
+                <i class='bx bx-arrow-from-left'></i>
+              </a>
+            </p>
+            <p>Cybersecurity Job Simulation – Mastercard (Forage)
+              <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/mfxGwGDp6WkQmtmTf/vcKAB5yYAgvemepGQ_mfxGwGDp6WkQmtmTf_cqjHbFa5Cz3qAnK8F_1736218249997_completion_certificate.pdf"
+                target="_blank">
+                <i class='bx bx-arrow-from-left'></i>
+              </a>
+            </p>
+            <p>Cybersecurity Analyst Job Simulation – Tata Group (Forage)
+              <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/ifobHAoMjQs9s6bKS/gmf3ypEXBj2wvfQWC_ifobHAoMjQs9s6bKS_cqjHbFa5Cz3qAnK8F_1736220943730_completion_certificate.pdf"
+                target="_blank">
+                <i class='bx bx-arrow-from-left'></i>
+              </a>
+            </p>
+            <p>AI for India 2.0 – LinkedIn
+              <a href="https://www.guvi.in/verify-certificate?id=066Ub2I96TM1w961L5&course=ai_for_in_en"
+                target="_blank">
+                <i class='bx bx-arrow-from-left'></i>
+              </a>
+            </p>
+            <p>Full Stack Developer - Mycaptain
+              <a href="https://www.linkedin.com/posts/kambleaditi_full-stack-developementjpg-activity-7309059571069677568-GuHc?utm_source=share&utm_medium=member_desktop&rcm=ACoAADYBUrsBwIYyb5L4ByEeP0sl77b_L6Sl-NQ"
+                target="_blank">
+                <i class="bx bx-arrow-from-left"></i>
+              </a>
+            </p>
+          </div>
+
+          <div id="skills" class="resume-section">
+            <h1>My <span>Skills</span></h1>
+            <!-- your skills content -->
+            <p> <strong>HTML</strong><br>
+              - Create semantic, accessible page structures <br>
+              - Use tags likesection, article, nav effectively <br>
+              - Optimize layout with responsive containers <br>
+              - Maintain clean and reusable code</p>
+
+            <p> <strong>CSS</strong><br>
+              - Style elements with classes and IDs <br>
+              - Use Flexbox and Grid for layout <br>
+              - Implement responsive design with media queries <br>
+              - Create animations and transitions for interactivity</p>
+
+            <p> <strong>JavaScript</strong><br>
+              - Manipulate DOM elements dynamically <br>
+              - Handle events like clicks and form submissions <br>
+              - Fetch data from APIs using fetch() <br>
+              - Implement basic algorithms and data structures</p>
+            <p> <strong>Python</strong><br>
+              - Write clean, readable code with PEP 8 standards <br>
+              - Use built-in data types like lists, tuples, and dictionaries <br>
+              - Implement functions and modules for code organization <br>
+              - Handle exceptions and errors gracefully</p>
+            <p> <strong>SQL</strong><br>
+              - Write queries to retrieve and manipulate data <br>
+              - Use JOINs to combine data from multiple tables <br>
+              - Implement basic CRUD operations <br>
+              - Optimize queries for performance</p>
+            <p> <strong>Git</strong><br>
+              - Use Git for version control and collaboration <br>
+              - Create branches for feature development <br>
+              - Resolve merge conflicts effectively <br>
+              - Maintain commit history with meaningful messages</p>
+
+            <p><strong>GitHub</strong><br>
+              - Host and manage code repositories online <br>
+              - Collaborate with teams using pull requests and issues <br>
+              - Use GitHub Pages for static site deployment <br>
+              - Track project progress with project boards
+            </p>
+
+            <p><strong>Visual Studio Code</strong><br>
+              - Lightweight and powerful source code editor <br>
+              - Use extensions like Live Server and Prettier <br>
+              - Built-in Git integration for version control <br>
+              - Customize themes, snippets, and shortcuts
+            </p>
+
+            <p><strong>Linux</strong><br>
+              - Perform file and permission management using CLI <br>
+              - Manage users, services, and packages <br>
+              - Configure system settings and network interfaces <br>
+              - Use cron jobs and basic shell scripting
+            </p>
+
+            <p><strong>CCNA</strong><br>
+              - Understand networking fundamentals and OSI model <br>
+              - Configure routers, switches, and IP addressing <br>
+              - Implement VLANs, subnetting, and basic routing protocols <br>
+              - Troubleshoot basic LAN/WAN connectivity issues
+            </p>
+
+            <p><strong>MCSA</strong><br>
+              - Administer and configure Windows Server OS <br>
+              - Manage Active Directory and Group Policy <br>
+              - Set up DHCP, DNS, and file sharing services <br>
+              - Perform server backups and security configurations
+            </p>
+
+            <p><strong>Networking & Troubleshooting</strong><br>
+              - Identify and resolve IP and DNS conflicts <br>
+              - Monitor networks using tools like Wireshark <br>
+              - Configure wireless routers, printers, and access points <br>
+              - Perform LAN cabling, setup, and diagnostics
+            </p>
+          </div>
+        </div>
+  </section>
+
+  <section class="portfolio" id="portfolio">
+    <h1 class="sub-title">Latest <span>Projects</span></h1>
+  </section>
+  <div class="project-container">
+    <div class="project-card">
+      <!-- <img src="" alt=""> -->
+      <div class="project-info">
+        <h3>spotify-clone-</h3>
+        <p>Html | Css | Javascript</p>
+        <a href="https://github.com/aditiii1123ak/Spotify-clonee" target="_blank" class="btn">View Project</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <!-- <img src="" alt=""> -->
+      <div class="project-info">
+        <h3>-</h3>
+        <p> | | </p>
+        <a href="https://github.com/aditiii1123ak/spotify-clone-" target="_blank" class="btn">View Project</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <!-- <img src="" alt=""> -->
+      <div class="project-info">
+        <h3>-</h3>
+        <p> | | </p>
+        <a href="https://github.com/aditiii1123ak/spotify-clone-" target="_blank" class="btn">View Project</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <!-- <img src="" alt=""> -->
+      <div class="project-info">
+        <h3>-</h3>
+        <p> | | </p>
+        <a href="https://github.com/aditiii1123ak/spotify-clone-" target="_blank" class="btn">View Project</a>
+      </div>
+    </div>
+
+  </div>
+  <section class="contact" id="contact">
+    <div class="contact-text">
+      <h2>Contact <span>Me</span></h2>
+      <h4>Let’s work Together</h4>
+      <p>Have an idea, project, or just want to say hello? Let's turn your vision into reality! Whether it's building
+        something amazing or solving a challenge, I’m just a message away. Let’s create something impactful together!
+      </p>
+
+      <div class="contact-details">
+        <a href="mailto:aditikamble76@gmail.com" class="contact-link email">aditikamble76@gmail.com</a><br>
+        <a href="tel:8425975988" class="contact-link phone">8425975988</a>
+      </div>
+
+      <div class="contact-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <form action="https://formsubmit.co/aditikamble76@gmail.com" method="POST">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://yourdomain.com/thankyou.html">
+
+        <input type="text" placeholder="Enter Your Name" required>
+        <input type="email" placeholder="Enter Your Email" required>
+        <input type="text" placeholder="Enter Your Subject">
+        <textarea rows="5" placeholder="Enter Your Message" required></textarea>
+        <input type="submit" value="Submit" class="send">
+      </form>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
